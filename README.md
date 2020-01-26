@@ -10,6 +10,22 @@ Analysis on Census and PNAD data
 Download dos Setores Censitários
 https://ftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/
 
+rename kmz files to .zip
+
+`mv 35-SP_Capital.kmz 35-SP_Capital.zip`
+
+unzip kml file
+
+`unzip 35-SP_Capital.zip`
+
+rename kml
+
+`mv doc.kml 35-SP_Capital.kml`
+
+convert to geojson
+`k2g 35-SP_Capital.kml PATH_TO_GEOJSON/`
+
+
 Download dos dados agrupados por setores censitários
 Censos/Censo_Demografico_2010/Resultados_do_Universo/Agregados_por_Setores_Censitários/
 https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
