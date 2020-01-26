@@ -7,8 +7,7 @@ Analysis on Census and PNAD data
 `conda activate IBGE_env`
 
 ## Getting IBGE data
-Download dos Setores Censitários
-https://ftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/
+[Download census sectors (Setores Censitários)](https://ftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/)
 
 rename kmz files to .zip
 
@@ -26,8 +25,6 @@ convert to geojson
 `k2g 35-SP_Capital.kml PATH_TO_GEOJSON/`
 
 
-Download dos dados agrupados por setores censitários
-Censos/Censo_Demografico_2010/Resultados_do_Universo/Agregados_por_Setores_Censitários/
-https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
-
+[Download grouped data by census sectors](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html)
+`Censos/Censo_Demografico_2010/Resultados_do_Universo/Agregados_por_Setores_Censitários/`
 
