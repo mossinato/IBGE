@@ -9,19 +9,16 @@ Analysis on Census and PNAD data
 ## Getting IBGE data
 [Download census sectors (Setores Censitários)](https://ftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/)
 
-rename kmz files to .zip
-
+rename kmz files to .zip  
 `mv 35-SP_Capital.kmz 35-SP_Capital.zip`
 
-unzip kml file
-
+unzip kml file  
 `unzip 35-SP_Capital.zip`
 
-rename kml
-
+rename kml  
 `mv doc.kml 35-SP_Capital.kml`
 
-convert to geojson
+convert to geojson  
 `k2g 35-SP_Capital.kml PATH_TO_GEOJSON/`
 
 
