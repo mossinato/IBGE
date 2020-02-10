@@ -18,7 +18,7 @@ unzip kml file
 rename kml  
 `mv doc.kml 35-SP_Capital.kml`
 
-convert to geojson  
+[convert to geojson](https://pypi.org/project/kml2geojson/)  
 `k2g 35-SP_Capital.kml PATH_TO_GEOJSON/`
 
 
