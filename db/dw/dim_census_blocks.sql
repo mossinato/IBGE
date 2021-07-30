@@ -13,7 +13,7 @@ drop table if exists dw.dim_census_blocks;
 create table dw.dim_census_blocks as (
 	select
 		cb.id_block as id_block,
-		cb.id_city as id_city,
+		c.id_city as id_city,
 		cb.neighborhood_name as neighborhood_name,
 		initcap(cb.sub_district_name) as sub_district_name,
 		initcap(cb.district_name) as district_name,
