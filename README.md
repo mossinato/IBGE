@@ -7,7 +7,8 @@ Analysis on Census and PNAD data
 `conda activate IBGE_env`
 
 ## Getting IBGE data
-[Download census sectors (Setores Censitários)](https://ftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010/)
+[Download census sectors (Setores Censitários)](https://www.ibge.gov.br/geociencias/downloads-geociencias.html)
+organizacoo_do_território > malhas_territoriais > malhas_de_setores_censitarios__divisoes_intramunicipais
 
 rename kmz files to .zip  
 `mv 35-SP_Capital.kmz 35-SP_Capital.zip`
